@@ -4,14 +4,11 @@
 	"description": "Testing node deployment to heroku",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"start": "node index.js"
 	},
 	"author": "Yousif",
 	"license": "ISC",
 	"dependencies": {
 		"express": "^4.17.1"
-  },
-  "scripts":{
-    "start": "node index.js"
-  }
+	}
 }

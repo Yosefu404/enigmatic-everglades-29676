@@ -6,6 +6,6 @@ const port = process.env.PORT || 3000;
 //console.log(`serving ${www}`);
 app.get('*', (req, res) => {
 	//res.sendFile(`index.html`, { root: www });
-	res.send('Welcome to Heroku!');
+	res.send('Welcome to Heroku! 2020');
 });
 app.listen(port, () => console.log(`listening on http://localhost:${port}`));
